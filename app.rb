@@ -35,11 +35,11 @@ def jigoku?
 end
 
 def title
-  erb(:title).force_encoding("ascii-8bit").strip
+  erb(:title).strip
 end
 
 def description
-  erb(:description).force_encoding("ascii-8bit")
+  erb(:description)
 end
 
 get '/' do
@@ -464,7 +464,7 @@ get "/:user" do
       @user = user
       @families = @@font_families.sort_by {rand}[0, 50].collect do |name|
         if name.respond_to?(:force_encoding)
-          name.dup.force_encoding("ASCII-8BIT")
+          name.dup
         else
           name
         end
