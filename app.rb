@@ -4,7 +4,7 @@ ENV["LANG"] = "ja_JP.UTF-8"
 
 require 'rubygems'
 require 'sinatra'
-require 'gtk/base'
+require 'gtk2/base'
 require 'stringio'
 require 'rexml/document'
 require 'open-uri'
