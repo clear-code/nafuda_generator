@@ -2,8 +2,10 @@
 http://rubykaigi.tdiary.net/20100815.html#p01
 のような名札画像を生成するジェネレータ。
 
+Twitter API v1.1に対応していないので動かなくなりました。
+
 ■設置場所
-http://nameplate.clear-code.com/
+http://nameplate.clear-code.com/ → 設置していません
 
 ■オリジナル
 http://github.com/kdmsnr/nafuda_generator
